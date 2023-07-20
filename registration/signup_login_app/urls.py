@@ -2,7 +2,7 @@
     It acts as a mapping between the URLs requested by clients and the corresponding view functions.
 """
 from . import views
-from django.urls import include, path
+from django.urls import path
 
 
 urlpatterns = [

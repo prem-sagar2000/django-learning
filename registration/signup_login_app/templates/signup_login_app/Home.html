@@ -1,10 +1,14 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Home Page</title>
+    <title>Dashboard</title>
   </head>
   <body>
-    <h1>Home Page</h1>
+    <h1> Dashboard</h1>
+    <br>
+    <h2> Welcome, {{username}}</h2>
+    <h2> Your email is : {{email}} </h2>
+    <h2> Your company is : {{company}} </h2>
     <a href="{% url 'logout'%}">  <button> Logout </button> <a/>
   </body>
 </html>
